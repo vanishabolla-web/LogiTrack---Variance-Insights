@@ -15,7 +15,7 @@ warnings.filterwarnings("ignore")
 COHERE_API_KEY = os.getenv("COHERE_API_KEY") or st.secrets["COHERE_API_KEY"]
 # ==================== PAGE CONFIG ====================
 st.set_page_config(
-    page_title="LogiTrust AI - Logistics Analytics",
+    page_title="LogiTrack - Variance Insights",
     page_icon="🚚",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -216,8 +216,8 @@ def call_ai(prompt_text):
     return None
 
 # ==================== SIDEBAR ====================
-st.sidebar.markdown('<div class="sidebar-logo">🚚 LogiTrust AI</div>', unsafe_allow_html=True)
-st.sidebar.markdown('<div class="sidebar-sub">Advanced Logistics Intelligence Platform</div>', unsafe_allow_html=True)
+st.sidebar.markdown('<div class="sidebar-logo">🚚 LogiTrack</div>', unsafe_allow_html=True)
+st.sidebar.markdown('<div class="sidebar-sub">Variance Insights</div>', unsafe_allow_html=True)
 st.sidebar.markdown('<div class="sidebar-divider"></div>', unsafe_allow_html=True)
 st.sidebar.markdown(f"""
 <div class="sidebar-info-pill">📦 <strong>{len(df_all):,}</strong> Total Records</div>
