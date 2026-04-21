@@ -305,7 +305,7 @@ risk_val    = df[df["status"].isin(["Delayed","Cancelled","Failed Delivery"])]["
 # ==================== HEADER ====================
 st.markdown("""
 <div class="header-banner">
-  <h2>🚚 LogiTrust AI — Logistics Intelligence</h2>
+  <h2>🚚 LogiTrack — Variance Insights/h2>
   Advanced analytics for shipment tracking · carrier performance · delay profiling · product correlation · AI-powered recommendations
 </div>
 """, unsafe_allow_html=True)
