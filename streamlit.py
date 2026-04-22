@@ -13,7 +13,7 @@ warnings.filterwarnings("ignore")
 
 # ✅ ADD THIS LINE
 COHERE_API_KEY = os.getenv("COHERE_API_KEY") or st.secrets["COHERE_API_KEY"]
-# ==================== PAGE CONFIG ====================
+# ==================== PAGE CONFIG ===================
 st.set_page_config(
     page_title="LogiTrack - Variance Insights",
     page_icon="🚚",
