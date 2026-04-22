@@ -895,7 +895,7 @@ with t8:
         <div class="ibox-title olive">🚚 What is LogiTrack?</div>
         LogiTrack is an advanced logistics analytics platform built with Streamlit and Python.
         It provides real-time insights into shipment performance, carrier efficiency, delay patterns,
-        and product distribution — powered by your Excel data and optional AI analysis via Cohere.
+        and product distribution — powered by Excel data and optional AI analysis via Cohere.
     </div>
     <div class="ibox ibox-mustard">
         <div class="ibox-title mustard">📊 Dashboard Sections</div>
@@ -932,7 +932,7 @@ with t8:
             <div class="ibox-title orange">📁 Data Model (Shipping_dataset.xlsx)</div>
             <ul style="margin:6px 0 0 0;padding-left:18px;line-height:2">
                 <li><code>Fact_Shipments</code> — 32,921 records, core shipment facts</li>
-                <li><code>Dim_Carriers</code> — 10 carriers with SLA & contract info</li>
+                <li><code>Dim_Carriers</code> — 7 carriers with SLA & contract info</li>
                 <li><code>Dim_Delays</code> — delay reason categories + impact scores</li>
                 <li><code>Dim_Shipment_Delays</code> — delay days per shipment</li>
                 <li><code>Dim_Calendar</code> — date dimension table</li>
