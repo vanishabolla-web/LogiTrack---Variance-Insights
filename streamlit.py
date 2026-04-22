@@ -889,11 +889,11 @@ Category Performance Data:
 # TAB 8 — ABOUT
 # ════════════════════════════════════════
 with t8:
-    st.markdown('<div class="section-title">📖 About LogiTrust AI</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-title">📖 About LogiTrack</div>', unsafe_allow_html=True)
     st.markdown("""
     <div class="ibox ibox-olive">
-        <div class="ibox-title olive">🚚 What is LogiTrust AI?</div>
-        LogiTrust AI is an advanced logistics analytics platform built with Streamlit and Python.
+        <div class="ibox-title olive">🚚 What is LogiTrack?</div>
+        LogiTrack is an advanced logistics analytics platform built with Streamlit and Python.
         It provides real-time insights into shipment performance, carrier efficiency, delay patterns,
         and product distribution — powered by your Excel data and optional AI analysis via Cohere.
     </div>
@@ -941,4 +941,4 @@ with t8:
 
 # ==================== FOOTER ====================
 st.markdown("---")
-st.markdown('<div class="footer">LogiTrust AI · Advanced Logistics Intelligence · Built with Streamlit</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer">LogiTrack · Variance Insights · Built with Streamlit</div>', unsafe_allow_html=True)
